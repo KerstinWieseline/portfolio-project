@@ -15,15 +15,19 @@ h1, h2 {
 }
 
 p {
-    font-family: var(--heading-font-family);
+    font-family: var(--default-font-family);
     font-weight: 400;
     color: var(--branding-color);
     
 }
+img {
+  border-radius: 5px;
+}
 
 .hero {
-  background-image: url(../images/bg.jpg);
-  background-position: center;
+ background-image: url(../images/bg2.jpg);
+ background-size: cover;
+ background-position: center;
   text-align: center;
   padding: 160px 20px;
 }
@@ -44,7 +48,7 @@ p {
   text-align: center;
 
 
-}
+} 
 .btn-branding {
   font-family: var(--default-font-family);
   font-weight: 700; 
@@ -69,7 +73,19 @@ height: 2440;
 top: 3126px;
 left: -3399px;
 }
-
+@media (max-width: 960px) {
+  .hero{
+    background: #1B1B1B;
+  }
+  h1 {
+    font-weight: 400;
+    font-size: 20px;
+  }
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+}
 /*
 .roboto-<uniquifier> {
   font-family: "Roboto", sans-serif;
