@@ -1,19 +1,66 @@
-h1 {
+:root {
+  --branding-color:#FFFF;
+  --heading-font-family:"Roboto", sans-serif;
+  --default-font-family:"Montserrat", sans-serif;
+
+
+h1, h2 {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
-
+    color: var(--branding-color);
+    
 }
 
 p {
-    font-family: "Roboto", sans-serif;
+    font-family: var(--heading-font-family);
     font-weight: 400;
+    color: var(--branding-color);
+    
 }
 
-button {
-    font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
+.hero {
+  background-image: url(../images/backgroundhero.png);
+  background-position: center;
+  width: 1440px;
+  height: 900px;
+  text-align: center;
+  padding: 160px 20px;
+}
+.hero h1 {
+  font-size: 72px;
+}
+.hero h2 {
+  font-size: 24px;
+}
+.hero p {
+  font-size: 18px;
+  width: 460;
+  height: 60;
+  top: 438px;
+  left: 490px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+
+
+}
+.btn-branding {
+  font-family: var(--default-font-family);
+  font-weight: 700; 
+  background: var(--branding-color);
+  font-size: 14px;
+  color: #272142;
+  line-height: 100%;
+  letter-spacing: 10%;
+  text-transform: uppercase;
+  width: 200;
+  height: 53;
+  top: 546px;
+  left: 620px;
+  border-radius: 50px;
+  padding: 18px 30px;
+  gap: 10px;
+
 }
 
 /*
