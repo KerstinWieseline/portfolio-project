@@ -50,6 +50,19 @@ img {
 
 
 } 
+.about-section{
+  padding: 160px 20px;
+}
+.about-section h1 {
+  font-size: 72px;
+}
+.about-section h2 {
+  font-size: 24px;
+}
+.about-section-content{
+  margin: 30px;
+
+}
 .btn-branding {
   font-family: var(--default-font-family);
   font-weight: 700; 
@@ -93,6 +106,10 @@ left: -3399px;
 @media (max-width: 960px) {
   .hero{
     background: #1B1B1B;
+  }
+  .about-section {
+    text-align: center;
+    padding: 0;
   }
   h1 {
     font-weight: 400;
