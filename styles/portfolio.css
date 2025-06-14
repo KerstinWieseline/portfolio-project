@@ -3,6 +3,8 @@
   --secondary-color:#2e2c2c;
   --heading-font-family:"Roboto", sans-serif;
   --default-font-family:"Montserrat", sans-serif;
+  --link-color: #ffc0cb;
+  --link-background:#808080;
 }
 body {
   background: var(--secondary-color);
@@ -62,6 +64,7 @@ a {
 } 
 .content-container{
   padding: 160px 20px;
+  
 }
 .content-container h1 {
   font-size: 72px;
@@ -93,8 +96,41 @@ a {
   gap: 10px;
 }
 
+.btn-branding:hover {
+  color:var(--link-color);
+  background-color: var(--link-background);
+}
+.social-links a {
+  color: var(--branding-color);
+  margin: 0 20px;
+  padding: 10px;
+  font-size: 30px;
+  text-decoration: none;
 
+}
+.social-links a:hover {
+  color: var(--link-color);
+}
 
+.contact-box {
+  background:var(--link-background);
+  padding: 30px;
+  border-radius: 10px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.footer-content {
+  font-family: var(--default-font-family);
+  font-weight:100;
+  color: var(--link-background);
+  text-align: center;
+}
+.footer-content a {
+  text-decoration: none;
+}
+.footer-content a:hover {
+  color:var(--link-color);
+}
 @media (max-width: 960px) {
   .hero{
     background: #1B1B1B;
