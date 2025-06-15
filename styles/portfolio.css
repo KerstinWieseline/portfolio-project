@@ -29,6 +29,10 @@ p {
 }
 img {
   border-radius: 10px;
+  transition: transform 0.3s;
+}
+img:hover {
+  transform: scale(1.05);
 }
 a {
   font-family: var(--default-font-family);
@@ -37,12 +41,12 @@ a {
 }
 
 .hero {
- background-image: url(../images/bg2.jpg);
- background-size: cover;
- background-position: center;
+  background-image: url(../images/bg2.jpg);
+  background-size: cover;
+  background-position: center;
   text-align: center;
-  padding: 160px 20px;
-  }
+  padding: 200px 20px;
+}
 .hero h1 {
   font-size: 72px;
 }
@@ -63,7 +67,7 @@ a {
 
 } 
 .content-container{
-  padding: 160px 20px;
+  padding: 80px 20px;
   
 }
 .content-container h1 {
